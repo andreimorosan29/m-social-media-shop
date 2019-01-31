@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(255, 241, 250);
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    background-color: rgb(252, 57, 57);
+}
+
+.container > .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 > h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+}
+
+.container > .header > .menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container > .header > .menu > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container > .header > .menu > a:hover {
+    text-decoration: underline;
+}
+
+.facebook-packages {
+    background-color: white;
+}
+
+.facebook-packages > h1 {
+    color: white;
+    background-color: rgb(252, 57, 57);
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.facebook-packages > .row > .fb-article {
+    background-color: white;
+    padding-top: 50px;
+}
+
+.facebook-packages > .row > .fb-article > h3 {
+    background-color: #D3F8E2;
+    color: rgb(252, 57, 132);
+    font-family: 'Baloo Thambi', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.facebook-packages > .row > .fb-article > .like {
+    color: black;
+    font-size: 100px;
+}
+
+.facebook-packages > .row > .fb-article > .btn {
+    background-color: rgb(252, 57, 132);
+    font-family: 'Baloo Thambi', cursive;
+    border: none;
+    padding: 10px none;
+}
+
+.facebook-packages > .row > .fb-article > .btn:hover {
+    background-color: pink;
+    border: none;
+    font-family: 'Baloo Thambi', cursive;
+    color: red;
+}
+
+
+.empty-row {
+    background-color: white;
+    height: 50px;
+    color: white;
+}
+
+.about-us {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.about-us > h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.about-us > .row > .crypto-logos > img {
+    width: 100px;
+}
+
+.about-us > .row > .pay-logos > img {
+    width: 200px;
+}
+
+.footer {
+    background-color: rgb(252, 57, 57);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+  @media only screen and (max-width: 560px) {
+    .about-us{
+        height: 3550px;
+    }
+
+    .col-xs-12 {
+        padding-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .about-us{
+        height: 850px;
+    }
+  }
